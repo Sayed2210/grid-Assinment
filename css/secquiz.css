@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: "head head head head head head head head head head"
+                        "section section section section section section section section aside aside"
+                        "footer footer footer footer footer footer footer footer footer footer";
+}
+
+header {
+    background-color: aquamarine;
+    grid-area: head;
+}
+
+section {
+    background-color: blueviolet;
+    grid-area: section;
+}
+
+aside {
+    background-color: cadetblue;
+    grid-area: aside;
+}
+
+footer {
+    background-color: cornflowerblue;
+    grid-area: footer;
+}
