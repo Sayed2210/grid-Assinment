@@ -11,6 +11,7 @@
     height: 400px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,1fr);
     gap: 10px;
   }
 
@@ -34,13 +35,13 @@
   }
 
   .four {
-    grid-area: 3/1/5/2;
+    grid-area: 3/1/4/2;
   }
 
   .five {
-    grid-area: 3/2/7/4;
+    grid-area: 3/2/6/4;
   }
 
   .one {
-    grid-area: 7/1/8/4;
+    grid-area: 6/1/7/4;
   }
